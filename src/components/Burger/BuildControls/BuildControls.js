@@ -21,7 +21,7 @@ const buildControls = props => (
         key={ctrl.label}
         ingredientLabel={ctrl.label}
         added={() => props.ingredientAdded(ctrl.type)}
-        subtract={() => props.ingredientsSubtract(ctrl.type)}
+        subtract={() => props.ingredientSubtract(ctrl.type)}
         disabled={props.disabled[ctrl.type]}
       />
     ))}
