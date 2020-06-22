@@ -1,0 +1,27 @@
+.SideDraw {
+  position: fixed;
+  width: 280px;
+  max-width: 70%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  background-color: white;
+  padding: 32px 26px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+}
+
+@media (min-width: 500px) {
+  .SideDraw {
+    display: none;
+  }
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+.Closse {
+  transform: translateX(-100%);
+}
