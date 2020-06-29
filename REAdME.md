@@ -21,7 +21,7 @@ This is an online shopping app where users can view existing products with no ne
 
 
 ## Screenshots
-![](images/burger-app.png)
+![](https://github.com/CornetS28/burger-webapp/blob/master/src/assets/images/burger-logo.png)
 
 ## Requirements
 
