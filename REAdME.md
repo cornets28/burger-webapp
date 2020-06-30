@@ -1,4 +1,4 @@
-# BURGER WEB-APP
+# Burger Wep-App
 
 
 # Table of Contents
